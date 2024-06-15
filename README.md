@@ -21,7 +21,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Top Skills for Data Experts](3_Project\images\skill_demand_all_data_roles.png)
+![Visualization of Top Skills for Data Experts](3_Project/images/skill_demand_all_data_roles.png)
 
 ### Insights
 
@@ -48,7 +48,8 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analysts in the US](3_Project\images\DA_skills_trend.png)
+![Trending Top Skills for Data Analysts in the US](3_Project/images/DA_skills_trend.png)
+
 *Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
 
 ### Insights
