@@ -118,3 +118,29 @@ plt.show()
 - The top graph shows specialized technical skills like `dplyr`, `Bitbucket`, and `Gitlab` are associated with higher salaries, some reaching up to $200K, suggesting that advanced technical proficiency can increase earning potential.
 - The bottom graph highlights that foundational skills like `Excel`, `PowerPoint`, and `SQL` are the most demanded, even though they may not offer the highest salaries. This demonstrates the importance of these core skills for data roles.
 - There is a clear distinction between the skills that are paid high salaries and those that are most in demand. Data Analysts aiming to maximize their career potential should consider developing a diverse skill set including both high-paying specialized skills and most demanded foundational skills.
+
+## 4. What is the most optimal skill to learn for Data Analysts?
+
+#### Visualize Data
+
+```python
+from adjustText import adjust_text
+from matplotlib.ticker import PercentFormatter
+
+plt.scatter(df_DA_skills_high_demand['skill_percent'], df_DA_skills_high_demand['median_salary'])
+ax.xaxis.set_major_formatter(PercentFormatter(decimals=0))
+
+plt.show()
+
+```
+
+#### Results
+
+![Most Optimal Skills for Data Analyssts in the USA](3_Project/images/DA_optimal_skills.png)
+
+*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the USA.*
+
+#### Insights
+- The plot shows most of the `programming` skills (blue colored) cluster at higher salary levels compared to other categories, indicating that programming expertise might offer greater salary benfits within the data analytics field.
+- Analyst tools (orange colored), including Tablueau and PowerBI offer competetive salaries, showing that visualization and data analysis softwares are crucial for data roles. This category has good salaries as well as versatility in different types of tasks.
+- The database skills (green colored), such as Oracle and SQL Server, are associated with high salaries.
