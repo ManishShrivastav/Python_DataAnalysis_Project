@@ -82,7 +82,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Top Skills for Data Experts](3_Project/images/skill_demand_all_data_roles.png)
+![Visualization of Top Skills for Data Experts](3_Project/images/skill_demand_all_data_roles_0.png)
 
 ### Insights
 
